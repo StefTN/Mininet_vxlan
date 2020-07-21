@@ -1,0 +1,7 @@
+new-session 'MININET' ;
+
+new-window -n mininet ssh vagrant@mininet1 ;
+
+split-window -h ssh vagrant@mininet2 ;
+
+split-window ssh vagrant@mininet3 ;
